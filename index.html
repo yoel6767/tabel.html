@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JADWAL MAPEL</title>
+    <style>
+        /* warna dan ukuran bisa di sesuaikan sendiri */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: separate;
+            text-align: center;
+            padding: 8px;
+            border-spacing: 5px;
+        }
+
+        table {
+            width: 80%;
+            background-color: white;
+        }
+
+        th,
+        td {
+            background-color: white;
+        }
+
+        caption {
+            font-size: 30px;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-weight: 900;
+            color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>
+            Class Schedule
+        </caption>
+
+        <!-- HEADER -->
+        <tr>
+            <th rowspan="3">DAY</th>
+
+            <th colspan="3">jadwal</th>
+        </tr>
+
+        <tr>
+            <th colspan="2">SCHEDULE</th>
+            <th rowspan="2">TOPIC</th>
+        </tr>
+
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <!-- Day, Seminar, Schedule (Begin, End), Topic -->
+
+        <!-- CONTENT DAY -->
+        <!-- Jadwal Senin-Jumat beserta waktu dan Mapelnya -->
+        <tr>
+            <th rowspan="3">SENIN</th>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>B. INDO</td>
+        </tr>
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>MTK</td>
+        </tr>
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>B. INGGRIS</td>
+        </tr>
+        <tr>
+            <th rowspan="3">SELASA</th>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>IPA</td>
+        </tr>
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>IPS</td>
+        </tr>
+
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>PKN</td>
+        </tr>
+
+        <tr>
+            <th rowspan="3">RAB</th>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>CODING</td>
+        </tr>
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>B INGRIS</td>
+        </tr>
+
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>AGAMA</td>
+        </tr>
+        <tr>
+            <th rowspan="3">
+                KAMIS
+            </th>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>AGAMA</td>
+        </tr>
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>B INDO</td>
+        </tr>
+
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>IPS</td>
+            <tr>
+            <th rowspan="3">JUMAT</th>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>IPA</td>
+        </tr>
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>MTK</td>
+        </tr>
+
+        <tr>
+            <td>07:00 WIB</td>
+            <td>14:00 WIB</td>
+            <td>B INDO</td>
+        </tr>
+        </tr>
+    </table>
+</body>
+
+</html>
